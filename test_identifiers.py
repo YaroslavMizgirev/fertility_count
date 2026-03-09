@@ -1,0 +1,2 @@
+from fertility_count import analyze_identifiers_from_texts
+print(analyze_identifiers_from_texts(["ПроцедураОбработкаПроведения ОтказРежим"]))
