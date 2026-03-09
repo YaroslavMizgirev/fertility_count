@@ -63,8 +63,9 @@ def most_expensive_identifiers(
     files: str | None = Query(
         None,
         description=(
-            "Comma-separated list of absolute file paths whose contents should be scanned. "
-            "Files are read as UTF-8, falling back to Windows-1251 if necessary."
+            """Comma-separated list of absolute file paths whose contents should be scanned.
+            Files are read as UTF-8, falling back to Windows-1251 if necessary.
+            """
         ),
     ),
 ):
