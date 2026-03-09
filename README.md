@@ -54,3 +54,7 @@ Example:
 ```bash
 curl "http://127.0.0.1:8000/fertility?text=Hello%20world"
 ```
+
+## Swagger/OpenAPI
+
+- `GET /docs` - Swagger/Open API interface.
