@@ -175,3 +175,7 @@ ehthumbs.db
 *.bak
 *.swp
 *~
+
+# My test files
+sample.txt
+test_*.py
